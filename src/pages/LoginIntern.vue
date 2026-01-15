@@ -1,8 +1,8 @@
 <template>
   <div class="min-h-screen bg-gradient-to-br from-slate-100 to-slate-200 flex items-center justify-center font-inter">
     <!-- Card -->
-    <div class="w-full max-w-sm rounded-3xl bg-white/70 backdrop-blur-xl
-             shadow-2xl border border-white/50 p-8">
+    <div class="w-full max-w-sm rounded-lg bg-white/70 backdrop-blur-xl
+             shadow-2xl border border-white/50 p-6">
       <!-- Logo -->
       <div class="flex justify-center mb-4">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 234.59 185.62" class="w-20 h-auto">
@@ -38,7 +38,7 @@
                  active:scale-[0.98]
                  transition">
           <img :src="logo" class="h-5" />
-          <span>Sign In with UNIMMA</span>
+          <span>Peserta Internal UNIMMA</span>
         </Button>
         <p class="text-xs text-center text-red-500">
           Gunakan email UNIMMA dan password presensi
@@ -59,12 +59,7 @@
   <Button
     type="button"
     @click="goEksternal"
-    class="w-full rounded-xl py-2.5
-           bg-white border border-slate-200
-           text-slate-700 font-medium
-           hover:bg-slate-100
-           active:scale-[0.98]
-           transition"
+    class="rounded-md bg-indigo-500 px-2.5 py-1.5 text-sm font-semibold text-white hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
   >
     Peserta Eksternal
   </Button>
@@ -73,13 +68,9 @@
   <Button
     type="button"
     @click="goDaftarHadir"
-    class="w-full rounded-xl py-2.5
-           bg-blue-600 text-white font-semibold
-           hover:bg-blue-700
-           active:scale-[0.98]
-           transition"
+    class="rounded-md bg-indigo-500 px-2.5 py-1.5 text-sm font-semibold text-white hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
   >
-    Daftar Hadir
+    Daftar Kehadiran
   </Button>
 </div>
     </div>
