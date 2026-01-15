@@ -1,0 +1,79 @@
+export default {
+    root: ({ props, context, parent }) => ({
+        class: [
+            // Font
+            'leading-none',
+
+            // Flex
+            { 'flex-1 w-[1%]': parent.instance.$name == 'InputGroup' },
+
+            // Spacing
+            'm-0',
+            { 'w-full': props.fluid },
+
+            // Size
+            {
+                'py-4 px-5': props.size === 'large',
+                'py-1.5 px-2': props.size === 'small',
+                'py-2 px-3': !props.size
+            },
+
+            { 'pt-7 pb-2': parent.instance.$name === 'IftaLabel' },
+
+            // Shape
+            {
+                'rounded-md':
+                    (parent.instance.$name !== 'InputGroup' &&
+                        parent.instance.$name !== 'FloatLabel' &&
+                        parent.instance.$name !== 'AutoComplete') ||
+                    (parent.instance.$name == 'AutoComplete' &&
+                        !parent.instance.$props.dropdown)
+            },
+            {
+                'rounded-l-md':
+                    parent.instance.$name === 'AutoComplete' &&
+                    parent.instance.$props.dropdown
+            },
+            {
+                'first:rounded-l-md rounded-none last:rounded-r-md':
+                    parent.instance.$name === 'InputGroup'
+            },
+            {
+                'border-0 border-y border-l last:border-r':
+                    parent.instance.$name === 'InputGroup'
+            },
+            {
+                'first:ml-0 -ml-px':
+                    parent.instance.$name === 'InputGroup' && !props.showButtons
+            },
+
+            // Colors
+            'text-surface-800 dark:text-white/80',
+            'placeholder:text-surface-400 dark:placeholder:text-surface-500',
+            { 'bg-surface-0 dark:bg-surface-950': !context.disabled },
+            'border!',
+            { 'border-surface-300 dark:border-surface-700': !props.invalid },
+
+            // Invalid State
+            { 'border-red-500 dark:border-red-400': props.invalid },
+
+            // States
+            {
+                'hover:border-surface-400 dark:hover:border-surface-600':
+                    !context.disabled && !props.invalid,
+                'focus:outline-hidden focus:outline-offset-0 focus:border-primary-500 dark:focus:border-primary-400 focus:z-10':
+                    !context.disabled,
+                'bg-surface-200 dark:bg-surface-700 select-none pointer-events-none cursor-default':
+                context.disabled
+            },
+
+            // Filled State *for FloatLabel
+            { filled: context.filled },
+
+            // Misc
+            'appearance-none',
+            'transition-colors duration-200',
+            'scheme-light dark:scheme-dark',
+        ]
+    })
+};
