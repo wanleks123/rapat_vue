@@ -74,6 +74,22 @@
         --p-text-muted-color: var(--p-surface-400);
         --p-text-hover-muted-color: var(--p-surface-300);
     }}
+    /* SLIDE KIRI → KANAN */
+.slide-enter-active,
+.slide-leave-active {
+  transition: all 0.45s ease;
+}
+
+.slide-enter-from {
+  opacity: 0;
+  transform: translateX(40px);
+}
+
+.slide-leave-to {
+  opacity: 0;
+  transform: translateX(-40px);
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
