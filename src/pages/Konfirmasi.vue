@@ -1,16 +1,16 @@
 <template>
   <div
-    class="min-h-screen bg-gradient-to-br from-slate-100 to-slate-200
-           flex items-center justify-center font-inter py-5 sm:px-6  px-4"
+    class="min-h-screen bg-white
+           flex items-center justify-center font-inter px-4"
   >
     <!-- Card -->
     <div
       class="w-full max-w-sm rounded-xl bg-white/70 backdrop-blur-xl
-             shadow-2xl border border-white/50 p-6"
+             shadow-2xl border border-white/50 py-6 px-5"
     >
       <!-- Logo -->
-      <div class="flex justify-center mb-4">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 234.59 185.62" class="w-20 h-auto">
+      <div class="flex justify-center mb-2">
+       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 234.59 185.62" class="w-20 h-auto">
           <path class="fill-[#102a83] dark:fill-surface-300 transition-colors"
             d="M157.2 70.94c-1.4-5.94-3.27-10.71-5.8-13.4a97.56 97.56 0 0 0-1.8-13.18 74.95 74.95 0 0 0-.83-3.51c8.74 5.43 14.06 13.86 16.93 24.43zm-70-22.44v-.17l.19-1a1.16 1.16 0 0 0 0-.18l.21-1v-.2l.22-.93v-.19a24.72 24.72 0 0 1 .23-.92 2.25 2.25 0 0 1 .05-.22l.24-.88.06-.22.24-.87a1.87 1.87 0 0 0 .07-.22c.08-.29.17-.57.26-.85 0-.08.05-.16.07-.24l.26-.82a2.25 2.25 0 0 0 .08-.24l.28-.81a2.25 2.25 0 0 1 .08-.24l.29-.79.09-.25.29-.77c0-.09.07-.17.1-.26l.3-.75c0-.09.08-.17.11-.26l.31-.73.12-.28c.11-.23.21-.46.31-.69l.34-.22.33-.69c0-.09.08-.18.13-.27l.33-.68.15-.27.34-.66.15-.28.35-.64.16-.29.35-.61.18-.29.36-.6.18-.29c.12-.2.25-.39.37-.58l.2-.3.37-.56c.07-.1.14-.2.2-.3l.39-.55.21-.29.39-.54.23-.3.39-.51.26-.31c.13-.16.25-.33.39-.49l.25-.29c.13-.17.27-.33.41-.49a3.58 3.58 0 0 1 .26-.29c.13-.16.27-.32.41-.47l.27-.3.43-.45.29-.3.42-.44.3-.29.43-.43.32-.29.43-.41.34-.3.43-.38.35-.3.44-.37.36-.29.45-.36.36-.28.47-.36.36-.26.48-.36.33-.29.5-.35.35-.23.53-.35.42-.27.48-.3.46-.27.47-.28.36-.21.59-.32h0l.94-.5 1 .52h0l.42.23.53.3a3.79 3.79 0 0 0 .34.2l.58.35.39.25.51.32c.17.1.33.21.49.32l.4.26.44.31.43.29.43.32.41.3.44.34.39.3.42.34.38.31.43.36.36.31.42.37.35.31.43.41.32.29c.15.14.29.29.43.43l.3.29.43.44.29.3c.14.14.27.29.41.44a4.12 4.12 0 0 1 .28.31l.4.45c.1.1.19.21.28.31l.4.48.26.3.4.5.24.3.39.51.23.31c.13.17.26.34.38.52l.23.3.38.55.2.3a10.84 10.84 0 0 1 .37.56l.2.3c.13.19.25.38.37.58l.18.29a19.46 19.46 0 0 1 .37.6l.17.29.35.61c.06.1.11.2.17.29l.34.63.16.29.34.65c0 .1.09.19.14.28l.33.67c0 .1.09.19.14.28a13.94 13.94 0 0 1 .32.69 2.39 2.39 0 0 1 .13.28c.11.23.21.47.32.71s.08.17.11.26c.11.25.21.49.31.74a2.72 2.72 0 0 1 .11.25l.3.75a2.77 2.77 0 0 1 .1.26 17.52 17.52 0 0 1 .29.77 1.86 1.86 0 0 1 .1.25c.1.26.19.53.28.8l.09.23.27.81.08.24.26.82.08.24c.09.28.17.56.25.84 0 .08 0 .16.07.23l.25.88.06.21.24.9a1.94 1.94 0 0 0 0 .2l.22.91a1.6 1.6 0 0 1 .05.21 24.75 24.75 0 0 1 .22.92v.2c.08.32.14.64.21 1v.18c.07.32.13.65.2 1v.17l.19 1v.17l.17 1v.17l.16 1v.15l.15 1.06v.14c0 .36.1.72.14 1.08v.14c0 .36.09.73.13 1.1v.13l.12 1.12v.12c0 .38.08.76.11 1.15v.1l.09 1.17v.1l.09 1.18v.09c0 .4.05.8.07 1.21V62l.06 1.23v.07 1.24.08 1.25.13 1.29h0v1.32V70v1.34h0v1.36h0v1.38h0c0 .46 0 .93-.05 1.39h0v7.79l9.79-6.26v-.87-1.31-1.31-1.31h0v-1.31h0v-1.31h0v-1.31h0V67h0v-1.31h0c-.23-15.18-2.48-29.94-11.46-43.28h0l-.65-1.17h0c-.53-.76-1.09-1.51-1.67-2.26h0l-.89-1.12h0l-.92-1.11h0l-1-1.1h0a25.27 25.27 0 0 0-1-1.09h0l-1-1.09h0l-1.07-1.08h0l-1.11-1.07h0c-.38-.36-.76-.71-1.16-1.06h0c-.39-.36-.78-.71-1.19-1.06h0c-.4-.35-.81-.7-1.23-1h0c-.42-.35-.84-.7-1.27-1h0c-.44-.34-.87-.69-1.32-1h0l-1.36-1h0l-1.4-1h0l-1.45-1h0l-1.49-1-1.54-1h0l-1.58-1h0l-.2-.12-.21.12h0l-1.58 1h0l-1.54 1c-.5.32-1 .65-1.49 1h0c-.49.33-1 .66-1.44 1h0l-1.41 1h0l-1.36 1h0l-1.31 1h0l-1.28 1h0l-1.23 1h0l-1.19 1.06h0l-1.15 1.06h0a37.59 37.59 0 0 0-1.11 1.07h0q-.56.54-1.08 1.08h0c-.35.36-.69.72-1 1.09h0l-1 1.09h0a64.43 64.43 0 0 0-4.45 5.59h0l-.79 1.14h0C79.77 33.81 77 46.29 76.24 59.18h0c-.11 1.72-.17 3.45-.21 5.18h0v2.61h0v1.3h0v1.31h0v1.31 1.31h0v1.31 1.31h0v1.31h0l.25 37.76 9.23-6.15V75.52h0c-.08-1.88-.12-3.72-.13-5.54h0v-1.33h0v-1.31h0v-1.29h0v-1.28-.05-1.26-.07q0-.62.06-1.23v-.08c0-.4.05-.81.07-1.21v-.08c0-.4 0-.8.08-1.2v-.08l.09-1.18v-.1c0-.39.07-.77.11-1.16v-.1l.12-1.14v-.11c0-.37.09-.74.14-1.11v-.13c0-.37.1-.73.14-1.09v-.13c0-.36.1-.72.16-1.07v-.15c0-.35.11-.7.16-1v-.16l.18-1v-.16l.19-1zm12.64 4a50.71 50.71 0 0 0-7.63-9.82 76.72 76.72 0 0 0-2.45 12.08c3.91 6.19 6 13.56 7.51 21.38h.16v23.71l9.48-6.32v-17.4c.12-11.78 1.35-21.47 5.21-29.71 3.86 8.24 5.09 17.93 5.21 29.71v21.39l9.47-6.31V76.13h.2c1.46-7.82 3.6-15.19 7.52-21.38A77.09 77.09 0 0 0 132 42.66a51.88 51.88 0 0 0-7.63 9.83A52.84 52.84 0 0 0 118 37.32a47.72 47.72 0 0 1 8.33-7.59 40.89 40.89 0 0 0-6.08-7.61 65.26 65.26 0 0 0-8.13 7.48 65.38 65.38 0 0 0-8.12-7.48 40.89 40.89 0 0 0-6.08 7.61 47.8 47.8 0 0 1 8.34 7.59 52.59 52.59 0 0 0-6.4 15.17zm-24.4-11.65c-11.4 7.09-17 19.28-18.89 34.67h-.07v51.61l9.52-6.31V76.13c1.48-8.32 3.63-15.15 6.86-18.59a97.56 97.56 0 0 1 1.8-13.18 74.95 74.95 0 0 1 .83-3.51z"
             fill-rule="evenodd" />
@@ -22,7 +22,7 @@
 
       <!-- Title -->
       <h1 class="text-center text-2xl font-bold text-slate-800">
-        Peserta Eksternal
+        Daftar Hadir Rapat
       </h1>
 
       <!-- Divider -->
@@ -30,103 +30,195 @@
         <div class="h-1 w-20 rounded-full bg-slate-200"></div>
       </div>
 
-      <!-- Form -->
-      <form class="space-y-4" @submit.prevent="submitPin">
-        <div>
-          <label class="text-sm font-medium text-slate-700">
-            Kode / PIN Kehadiran
-          </label>
+      <!-- INFO RAPAT -->
+      <div class="text-sm text-slate-700 space-y-2 mb-4">
+        <div class="grid grid-cols-[130px_1fr]">
+          <span class="font-medium">Agenda</span>
+          <span>: Nama Kegiatan</span>
+        </div>
+        <div class="grid grid-cols-[130px_1fr]">
+          <span class="font-medium">Unit</span>
+          <span>: Universitas Muhammadiyah Magelang</span>
+        </div>
+        <div class="grid grid-cols-[130px_1fr]">
+          <span class="font-medium">Waktu</span>
+          <span>: Jumat, 03 Okt 2025 / 15:15</span>
+        </div>
+        <div class="grid grid-cols-[130px_1fr]">
+          <span class="font-medium">Tempat</span>
+          <span>: Nama Tempat</span>
+        </div>
+      </div>
 
-          <InputText
-            v-model="pin"
-            placeholder="Masukkan PIN"
-            class="mt-2 w-full rounded-md
-                   border border-slate-300 px-3 py-2
-                   text-sm
-                   focus:border-primary-500
-                   focus:ring-2 focus:ring-primary-300"
+      <!-- FORM -->
+      <form class="space-y-4">
+
+        <!-- Nama -->
+        <div>
+          <label class="text-xs font-semibold text-slate-600">
+            NAMA LENGKAP
+          </label>
+          <input
+            type="text"
+            placeholder="Nama Lengkap"
+            class="mt-1 w-full rounded-md px-3 py-2 text-sm
+                   border border-slate-300
+                   bg-white/80
+                   focus:outline-none focus:ring-2 focus:ring-primary-500"
           />
         </div>
 
-        <!-- Primary Button (SAMAKAN STYLE) -->
-        <Button
+        <!-- Instansi -->
+        <div>
+          <label class="text-xs font-semibold text-slate-600">
+            INSTANSI
+          </label>
+          <input
+            type="text"
+            placeholder="Instansi"
+            class="mt-1 w-full rounded-md px-3 py-2 text-sm
+                   border border-slate-300
+                   bg-white/80
+                   focus:outline-none focus:ring-2 focus:ring-primary-500"
+          />
+        </div>
+
+        <!-- Jabatan -->
+        <div>
+          <label class="text-xs font-semibold text-slate-600">
+            JABATAN
+          </label>
+          <input
+            type="text"
+            placeholder="Jabatan"
+            class="mt-1 w-full rounded-md px-3 py-2 text-sm
+                   border border-slate-300
+                   bg-white/80
+                   focus:outline-none focus:ring-2 focus:ring-primary-500"
+          />
+        </div>
+
+        <!-- TANDA TANGAN -->
+        <div>
+          <div class="flex items-center justify-between mb-2">
+            <label class="text-xs font-semibold text-slate-600">
+              TANDA TANGAN
+            </label>
+            <button
+              type="button"
+              @click="clearSignature"
+              class="flex items-center gap-1.5
+         text-xs px-3 py-1 rounded-full
+         bg-slate-200 text-slate-700
+         hover:bg-slate-300 transition"
+            >
+            <svg xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    class="w-3.5 h-3.5"
+    fill="currentColor"><path fill="currentColor" d="M6 12.05q0 .4.05.788t.175.762q.125.425-.025.813t-.525.562q-.4.2-.787.038t-.513-.588q-.2-.575-.288-1.175T4 12.05q0-3.35 2.325-5.7T12 4h.175l-.9-.9Q11 2.825 11 2.4t.275-.7t.7-.275t.7.275l2.6 2.6q.3.3.3.7t-.3.7l-2.6 2.6q-.275.275-.7.275t-.7-.275T11 7.6t.275-.7l.9-.9H12Q9.5 6 7.75 7.763T6 12.05m12-.1q0-.4-.05-.787t-.175-.763q-.125-.425.025-.812t.525-.563q.4-.2.787-.037t.513.587q.2.575.288 1.175t.087 1.2q0 3.35-2.325 5.7T12 20h-.175l.9.9q.275.275.275.7t-.275.7t-.7.275t-.7-.275l-2.6-2.6q-.3-.3-.3-.7t.3-.7l2.6-2.6q.275-.275.7-.275t.7.275t.275.7t-.275.7l-.9.9H12q2.5 0 4.25-1.762T18 11.95"/></svg>
+           <span>Ulangi</span>
+            </button>
+          </div>
+
+          <div
+            class="relative h-32 rounded-md border border-slate-300
+                   bg-white/80"
+          >
+            <canvas
+              ref="canvas"
+              class="w-full h-full"
+              @mousedown="startDraw"
+              @mousemove="draw"
+              @mouseup="stopDraw"
+              @mouseleave="stopDraw"
+              @touchstart.prevent="startDraw"
+              @touchmove.prevent="draw"
+              @touchend.prevent="stopDraw"
+            ></canvas>
+
+            <span class="absolute bottom-2 left-2 text-xs text-slate-400">
+              Tanda tangan di sini
+            </span>
+          </div>
+        </div>
+
+        <!-- SUBMIT -->
+        <button
           type="submit"
-          :loading="loading"
-          class="flex w-full items-center justify-center gap-3
-                 rounded-md bg-primary-500 px-3 py-2
+          class="w-full mt-3 rounded-md
+                 bg-primary-500 px-3 py-2
                  text-sm font-semibold text-white
-                 hover:bg-primary-600 transition
-                 focus-visible:outline focus-visible:outline-2
-                 focus-visible:outline-offset-2
-                 focus-visible:outline-primary-600"
+                 hover:bg-primary-600 transition"
         >
-          Konfirmasi Kehadiran
-        </Button>
-
-        <p class="text-xs text-center text-slate-400">
-          PIN diberikan oleh panitia kegiatan
-        </p>
+          Simpan
+        </button>
       </form>
-
-       <div class="my-3 h-px w-full bg-slate-300"></div>
-
-      <!-- Footer Buttons -->
-      <div class="flex gap-3 mt-6">
-        <Button
-          type="button"
-          @click="goInternal"
-          class="w-full rounded-md px-3 py-2
-                 text-sm font-medium
-                 bg-white border border-slate-200
-                 text-slate-700
-                 hover:bg-slate-100 transition"
-        >
-          Peserta Internal
-        </Button>
-
-        
-        <Button
-          type="button"
-          @click="goDaftarHadir"
-          class="w-full rounded-md px-3 py-2
-                 text-sm font-medium
-                 bg-slate-100 border border-slate-200
-                 text-slate-700
-                 hover:bg-slate-200 transition"
-        >
-          Daftar Hadir
-        </Button>
-      </div>
     </div>
   </div>
 </template>
 
 <script setup>
-import { ref } from 'vue'
-import { useRouter } from 'vue-router'
-import Button from 'primevue/button'
-import InputText from 'primevue/inputtext'
+import { ref, onMounted } from 'vue'
 
-const router = useRouter()
-const pin = ref('')
-const loading = ref(false)
+const canvas = ref(null)
+let ctx
+let drawing = false
+let lastX = 0
+let lastY = 0
 
-const submitPin = async () => {
-  if (!pin.value) return
+onMounted(() => {
+  const c = canvas.value
+  c.width = c.offsetWidth
+  c.height = c.offsetHeight
 
-  loading.value = true
-  try {
-    await new Promise(r => setTimeout(r, 800))
+  ctx = c.getContext('2d')
+  ctx.strokeStyle = '#1f2937'
+  ctx.lineWidth = 2
+  ctx.lineCap = 'round'
+  ctx.lineJoin = 'round'
+})
 
-    // ⬇️ pindah ke halaman konfirmasi
-    router.push({
-      path: '/konfirmasi',
-      query: { pin: pin.value }
-    })
-  } finally {
-    loading.value = false
+const getPos = (e) => {
+  const rect = canvas.value.getBoundingClientRect()
+  if (e.touches) {
+    return {
+      x: e.touches[0].clientX - rect.left,
+      y: e.touches[0].clientY - rect.top
+    }
+  }
+  return {
+    x: e.offsetX,
+    y: e.offsetY
   }
 }
-const goInternal = () => router.push('/')
-const goDaftarHadir = () => console.log('ke daftar hadir')
+
+const startDraw = (e) => {
+  drawing = true
+  const { x, y } = getPos(e)
+  lastX = x
+  lastY = y
+}
+
+const draw = (e) => {
+  if (!drawing) return
+
+  const { x, y } = getPos(e)
+
+  ctx.beginPath()
+  ctx.moveTo(lastX, lastY)
+  ctx.lineTo(x, y)
+  ctx.stroke()
+
+  lastX = x
+  lastY = y
+}
+
+const stopDraw = () => {
+  drawing = false
+}
+
+const clearSignature = () => {
+  ctx.clearRect(0, 0, canvas.value.width, canvas.value.height)
+}
+
 </script>
