@@ -1,4 +1,7 @@
 @import "tailwindcss";
+@import 'tailwindcss-primeui';
+/* Add PrimeIcons if you use them */
+
 @layer base {
     /*
      * Base variables, PrimeUI palette, and light mode theme.
