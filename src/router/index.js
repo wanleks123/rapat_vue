@@ -15,30 +15,20 @@ const routes = [
     component: LoginEksternal
   },
   {
-  path: '/konfirmasi',
-  name: 'Konfirmasi',
-  component: () => import('../pages/Konfirmasi.vue')
-}
+    path: '/konfirmasi',
+    name: 'Konfirmasi',
+    component: () => import('../pages/Konfirmasi.vue')
+  },
+  {
+    path: '/success',
+    name: 'Success',
+    component: () => import('../pages/SuccesAttedance.vue')
+  }
 ]
 
 const router = createRouter({
   history: createWebHistory(),
   routes
 })
-
-const submitPin = async () => {
-  if (!pin.value) return
-
-  loading.value = true
-  try {
-    // simulasi loading (boleh dihapus nanti)
-    await new Promise(r => setTimeout(r, 800))
-
-    // ⬇️ pindah ke halaman konfirmasi
-    router.push('/konfirmasi')
-  } finally {
-    loading.value = false
-  }
-}
 
 export default router

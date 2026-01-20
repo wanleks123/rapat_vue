@@ -51,7 +51,8 @@
       </div>
 
       <!-- FORM -->
-      <form class="space-y-4">
+      <form class="space-y-4" @submit.prevent="submitForm">
+
 
         <!-- Nama -->
         <div>
@@ -159,6 +160,19 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
+
+const submitForm = () => {
+  // (opsional) validasi bisa ditaruh di sini
+
+  // redirect ke halaman success
+  router.push({
+    name: 'Success'
+    // atau: path: '/success-attendance'
+  })
+}
 
 const canvas = ref(null)
 let ctx
